@@ -1,0 +1,17 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .lista {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+
+  .paginas {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+}

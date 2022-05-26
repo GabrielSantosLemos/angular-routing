@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  nav {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background-color: cadetblue;
+
+    a {
+      text-decoration: none;
+    }
+
+    .ativo {
+      color: white;
+    }
+
+    .login {
+      margin-left: auto;
+    }
+  }
+
+  main {
+    padding: 16px;
+  }
+}

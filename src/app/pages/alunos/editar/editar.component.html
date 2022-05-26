@@ -1,0 +1,10 @@
+<h3>Criar/Editar aluno</h3>
+
+<div>
+  <p>Id: {{ aluno?.id }}</p>
+  <br />
+  <input [(ngModel)]="aluno.nome" (input)="onInput()" />
+  <br />
+  <br />
+  <input [(ngModel)]="aluno.email" (input)="onInput()" />
+</div>
